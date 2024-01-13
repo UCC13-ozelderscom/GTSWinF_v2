@@ -1,0 +1,5 @@
+﻿Detaylar
+
+Uygulama normal kullanıcı/admin kullanıcı girişi olacak şekilde geliştirilmiştir. Gerekli parametresel veriler üzerindeki tüm işlemleri Admin haklarına sahip kullanıcı yapabilecektir. Normal kullanıcı ise sadece kendi verilerini görüntüleyebilecektir. Programın çalışması esnasında o an hangi kullanıcının aktif olduğu Main formunun başlığında görüntülenmektedir. 
+
+Veritabanı kısmında ADO.Net yapısı kullanılmıştır.Yazılım .NetFW 4.8 ile geliştirilmiştir.Ve Windows Form tekniğini kullanmaktadır. Veriye erişirken ve güncellerken gelen/giden verinin güvenliği düşünülerek SQL cümleciklerinde parametresel yapı kullanılmış böylelikle veri izlenebilirliği güvence altına alınmıştır. VT ile ilgili tanımlar class içinde global olarak kullanılabilecek  şekilde tanımlanmıştır. Veri giriş/çıkışlarında ADO.Net DataAdapter ve DataSet yapısı kullanılmıştır.
